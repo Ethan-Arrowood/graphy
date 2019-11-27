@@ -38,7 +38,6 @@ export class Graphy {
 
   addNode<T = string>(data: T): GraphyNode<T> {
     var index = this.indexer.next().value
-    console.log(index)
     if (index) {
       const graphyNode = new GraphyNode(index.toString(), data)
       this.nodes[index] = graphyNode

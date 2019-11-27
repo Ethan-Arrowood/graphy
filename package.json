@@ -1,11 +1,18 @@
 {
-  "name": "graphy",
+  "name": "@ethan_arrowood/graphy",
   "version": "0.0.1",
   "description": "A not so serious graph database",
+  "main": "build/Graphy.js",
+  "types": "build/Graphy.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json"
   },
-  "keywords": ["typescript", "graph", "database", "nodejs"],
+  "keywords": [
+    "typescript",
+    "graph",
+    "database",
+    "nodejs"
+  ],
   "author": "Ethan Arrowood",
   "license": "MIT",
   "devDependencies": {
