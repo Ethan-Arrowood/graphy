@@ -1,0 +1,15 @@
+{
+  "name": "graphy",
+  "version": "0.0.1",
+  "description": "A not so serious graph database",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": ["typescript", "graph", "database", "nodejs"],
+  "author": "Ethan Arrowood",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.7.2",
+    "@types/node": "^12.12.14"
+  }
+}
