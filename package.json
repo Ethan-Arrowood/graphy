@@ -2,8 +2,8 @@
   "name": "@ethan_arrowood/graphy",
   "version": "0.0.1",
   "description": "A not so serious graph database",
-  "main": "build/Graphy.js",
-  "types": "build/Graphy.d.ts",
+  "main": "dist/Graphy.js",
+  "types": "dist/Graphy.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json"
   },
@@ -18,5 +18,13 @@
   "devDependencies": {
     "typescript": "^3.7.2",
     "@types/node": "^12.12.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethan-Arrowood/graphy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ethan-Arrowood/graphy/issues"
+  },
+  "homepage": "https://github.com/Ethan-Arrowood/graphy#readme"
 }

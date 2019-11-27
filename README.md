@@ -2,11 +2,18 @@
 
 A not so serious graph database written in TypeScript and operating in memory.
 
+```
+npm i @ethan_arrowood/graphy
+```
+
 ## Example
 
 Input:
 ```typescript
-import Graphy from './Graphy'
+import Graphy from '@ethan_arrowood/graphy'
+
+// For JS users:
+// const { Graphy } = require('@ethan_arrowood/graphy') 
 
 const db = new Graphy()
 
